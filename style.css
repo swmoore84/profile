@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400|Raleway:400,700&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #003f5c;
+  /*color: #17373d;*/
+  background: rgb(23,55,61);
+  background: linear-gradient(90deg, rgba(23,55,61,1) 0%, rgba(38,106,116,1) 78%);
+  text-align: center;
+  }
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0px;
+}
+
+h2 {
+  color: #4ab0c9;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+a{
+  color: #58508d;
+}
+
+a:hover{
+  color: #003f5c;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.card-p{
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  margin: 20px 0px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  background-color: white;
+}
+
+.card {
+transition: all .2s ease-in-out;
+}
+
+.card:hover {
+transform: scale(1.03);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#le-wagon-button{
+  text-decoration: none;
+  background-color: #5c1d00;
+  /*003f5c*/
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+#le-wagon-button:hover
+{
+  opacity: 0.5;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
